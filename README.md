@@ -13,7 +13,111 @@ This repository contains official configuration examples and JSON payloads for t
 Below is the technical breakdown of the configuration file used to link your Siemens PLC or Modbus TCP registers with the Alertify cloud messaging infrastructure.
 
 ```json
-[WKLEJ TUTAJ ZAWARTOŚĆ SWOJEGO PLIKU JSON]
+{
+  "digitalInputs": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "digitalInputsNc": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "plcIp": "192.168.1.5",
+  "plcRack": 0,
+  "plcSlot": 1,
+  "dbNumber": 10,
+  "dbOffset": 16,
+  "s7Alarms": [
+    {
+      "label": "  🚱 No Water\"",
+      "active": true
+    },
+    {
+      "label": "⬇️ Low Water Pressure",
+      "active": true
+    },
+    {
+      "label": "⬆️ High Water Pressure",
+      "active": true
+    },
+    {
+      "label": "🔥 Low Pellet Level",
+      "active": true
+    },
+    {
+      "label": "🧯 Pellet Reserve Low",
+      "active": true
+    },
+    {
+      "label": "❄️ Low Outdoor Temp",
+      "active": true
+    },
+    {
+      "label": "🌡️ Outdoor Temp Low",
+      "active": true
+    },
+    {
+      "label": "",
+      "active": true
+    },
+    {
+      "label": "",
+      "active": true
+    },
+    {
+      "label": "",
+      "active": true
+    },
+    {
+      "label": "",
+      "active": true
+    },
+    {
+      "label": "\"🚪 Garage Door Open\",",
+      "active": true
+    },
+    {
+      "label": "",
+      "active": true
+    },
+    {
+      "label": "",
+      "active": true
+    },
+    {
+      "label": "🔥 Smoke in Boiler Room",
+      "active": true
+    },
+    {
+      "label": "💧 Rain Pump Failure",
+      "active": true
+    },
+    {
+      "label": "\"⬇️ Heating Pressure Low\",",
+      "active": true
+    },
+    {
+      "label": "",
+      "active": true
+    },
+    {
+      "label": "",
+      "active": false
+    },
+    {
+      "label": "",
+      "active": false
+    }
+  ]
+}
 ```
 
 ## 📖 How to Use
