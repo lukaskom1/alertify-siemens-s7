@@ -1,5 +1,14 @@
 # Alertify.Online - Industrial Automation Notification Config
 
+
+# PLC Push Notifications for Siemens S7
+
+In many industrial setups PLC alarms are correctly detected,
+but responses are delayed because the alarm never reaches the right person fast enough.
+
+This project explores a practical approach to PLC push notifications
+and reliable alarm delivery in real environments.
+
 This repository contains official configuration examples and JSON payloads for the **[Alertify.Online](https://alertify.online)** hardware module and cloud push notification system.
 
 ## 🛠️ Supported Technical Hardware Features
